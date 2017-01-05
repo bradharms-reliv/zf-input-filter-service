@@ -16,7 +16,7 @@
       "name": "James Jervis",
       "email": "jjervis@relivinc.com",
       "homepage": "https://github.com/jerv13"
-    },
+    }
   ],
   "require": {
     "php": ">=5.5",
