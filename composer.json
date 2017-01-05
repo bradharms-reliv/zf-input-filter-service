@@ -1,0 +1,34 @@
+{
+  "name": "reliv/zf-input-filter-service",
+  "description": "Uses ZendFrameworks InputFilter config to build filters and validators from services from a general service container",
+  "type": "library",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "reliv",
+    "middleware",
+    "module",
+    "api"
+  ],
+  "minimum-stability": "stable",
+  "homepage": "https://github.com/reliv/zf-input-filter-service",
+  "authors": [
+    {
+      "name": "James Jervis",
+      "email": "jjervis@relivinc.com",
+      "homepage": "https://github.com/jerv13"
+    },
+  ],
+  "require": {
+    "php": ">=5.5",
+    "zendframework/zend-stratigility": "1.*",
+    "zendframework/zend-inputfilter": ">=2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "ZfInputFilterService\\": "src/"
+    }
+  }
+}
